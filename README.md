@@ -19,10 +19,18 @@ network to focus on relevant regions in the input image, enhancing segmentation 
 
 ![image](https://github.com/user-attachments/assets/0b764940-3a63-4515-a9fa-e15b3963a79d)
 
+## Dataset
 
-## Results 
+Indian Driving Dataset (IDD) is for autonomous driving research in Indian traffic
+It contains 27 classes, many are underrepresented
+Original image size: 1920x1080,reduced to 256x256 for training,that will lose fine details,especially for small objects
 
-## Performance Metrics
+Link: https://www.kaggle.com/datasets/sovitrath/indian-driving-dataset-segmentation-part-2/data
+
+
+## Training Results
+
+### Performance Metrics
 
 | Class      | Accuracy | IoU  | Precision | Recall | F1-Score |
 |------------|----------|------|-----------|--------|----------|
