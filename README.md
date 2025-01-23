@@ -21,9 +21,9 @@ network to focus on relevant regions in the input image, enhancing segmentation 
 
 ## Dataset
 
-Indian Driving Dataset (IDD) is for autonomous driving research in Indian traffic
-It contains 27 classes, many are underrepresented
-Original image size: 1920x1080,reduced to 256x256 for training,that will lose fine details,especially for small objects
+Indian Driving Dataset (IDD) is for autonomous driving research in Indian traffic,it contains 27 classes, many are underrepresented.
+
+Original image size: 1920x1080,reduced to 256x256 for training,that will lose fine details,especially for small objects.
 
 Link: https://www.kaggle.com/datasets/sovitrath/indian-driving-dataset-segmentation-part-2/data
 
