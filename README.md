@@ -18,3 +18,14 @@ network to focus on relevant regions in the input image, enhancing segmentation 
 
 
 ![image](https://github.com/user-attachments/assets/0b764940-3a63-4515-a9fa-e15b3963a79d)
+
+
+## Results 
+
+### Segmentation Visualizations
+
+| Input Image          | Ground Truth         | Predicted Mask       |
+|----------------------|----------------------|----------------------|
+| ![Input](images/segmentation_example1_input.png) | ![GT](images/segmentation_example1_gt.png) | ![Pred](images/segmentation_example1_pred.png) |
+| ![Input](images/segmentation_example2_input.png) | ![GT](images/segmentation_example2_gt.png) | ![Pred](images/segmentation_example2_pred.png) |
+| ![Input](images/segmentation_example3_input.png) | ![GT](images/segmentation_example3_gt.png) | ![Pred](images/segmentation_example3_pred.png) |
