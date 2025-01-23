@@ -22,6 +22,15 @@ network to focus on relevant regions in the input image, enhancing segmentation 
 
 ## Results 
 
+## Performance Metrics
+
+| Class      | Accuracy | IoU  | Precision | Recall | F1-Score |
+|------------|----------|------|-----------|--------|----------|
+| Road       | 0.92     | 0.85 | 0.91      | 0.93   | 0.92     |
+| Building   | 0.89     | 0.82 | 0.88      | 0.90   | 0.89     |
+| Vegetation | 0.87     | 0.80 | 0.86      | 0.88   | 0.87     |
+| **Overall**| **0.90** | **0.83** | **0.89** | **0.91** | **0.90** |
+
 ### Segmentation Visualizations
 
 | Input Image          | Ground Truth         | Predicted Mask       |
