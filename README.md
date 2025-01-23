@@ -15,3 +15,6 @@ information).
 For the attention mechanisms it’s method applied on the skip connection to filter out irrelevant
 information before merging features from the encoder and decoder paths. These gates allow the
 network to focus on relevant regions in the input image, enhancing segmentation prediction
+
+
+![image](https://github.com/user-attachments/assets/0b764940-3a63-4515-a9fa-e15b3963a79d)
