@@ -26,7 +26,8 @@ network to focus on relevant regions in the input image, enhancing segmentation 
 
 | Input Image          | Ground Truth         | Predicted Mask       |
 |----------------------|----------------------|----------------------|
-| ![img_1](https://github.com/user-attachments/assets/4b9540b1-f2ea-4f32-842f-57c9c703caa4)| ![mask_1](https://github.com/user-attachments/assets/618f420d-7da0-44ce-aca2-83dc1845307e)| ![out_2](https://github.com/user-attachments/assets/fd6846f6-a8fb-4a25-a4aabca044182451)
+| ![img_1](https://github.com/user-attachments/assets/4b9540b1-f2ea-4f32-842f-57c9c703caa4)| ![mask_1](https://github.com/user-attachments/assets/618f420d-7da0-44ce-aca2-83dc1845307e)| ![img_2](https://github.com/user-attachments/assets/484eb71d-a53b-471d-8c42-351168fa4353)
+
 |
 | ![Input](images/segmentation_example2_input.png) | ![GT](images/segmentation_example2_gt.png) | ![Pred](images/segmentation_example2_pred.png) |
 | ![Input](images/segmentation_example3_input.png) | ![GT](images/segmentation_example3_gt.png) | ![Pred](images/segmentation_example3_pred.png) |
