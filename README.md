@@ -70,5 +70,8 @@ Link: https://www.kaggle.com/datasets/sovitrath/indian-driving-dataset-segmentat
 
 ## Train (Teacher model)
 
+To synthesize results, run the following command:
 ```bash
-python train.py --root_path "dataset/idd/" --img_size 128 --lr 1e-3 --epochs 150 --batch 8 
+python train.py --root_path "dataset/idd/" --img_size 128 --lr 1e-3 --epochs 150 --batch 8
+
+## Train (Teacher model)
