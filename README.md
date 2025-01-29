@@ -75,3 +75,8 @@ To synthesize results, run the following command:
 python train.py --root_path "dataset/idd/" --img_size 128 --lr 1e-3 --epochs 150 --batch 8
 ```
 To run inference, run the following command:
+```bash
+python inference.py --input_image "dataset/idd/val/train/imge_1.jpg" --output_name output_img --model outputs/best_model.pth --image_size 150
+```
+
+
