@@ -74,9 +74,42 @@ To synthesize results, run the following command:
 ```bash
 python train.py --root_path "dataset/idd/" --img_size 128 --lr 1e-3 --epochs 150 --batch 8
 ```
+## Inference (Teacher model)
+
 To run inference, run the following command:
 ```bash
-python inference.py --input_image "dataset/idd/val/train/imge_1.jpg" --output_name output_img --model outputs/best_model.pth --image_size 150
+python inference.py --input_image "dataset/idd/val/train/imge_1.jpg" --output_name output_img.jpg --model outputs/best_model.pth --image_size 150
 ```
+
+## Model Performance 
+```bash
+python perform_measures.py --input_image "dataset/idd/val/train/imge_1.jpg" --true_label "dataset/labels/val/mask_0.png"  --model outputs/best_model.pth --image_size 128
+```
+
+## Model Optimization
+
+### Original model  
+
+* Model size : 78,546 Mb
+* Image size : 128x128
+* MFLOPs = 16728,633 
+* Total Parameters : 20,581 M
+* Inference time : 0,25 s  
+
+### Optimized model  
+
+* Model size : 2,44511 Mb
+* Image size : 128x128
+* MFLOPs = 818,687
+* Total Parameters : 0,64 M
+* Inference time : 0,18 s  
+
+### Key Improvement 
+
+- Model Size: Reduced by 87%, making it more lightweight and easier to deploy.
+- FLOPs: Reduced by 80%
+- Parameters: Reduced by 88%.
+- Inference Time: Reduced by 62%, enabling faster real-time performance.
+
 
 
