@@ -70,6 +70,7 @@ Link: https://www.kaggle.com/datasets/sovitrath/indian-driving-dataset-segmentat
 
 ## Train 
 
+```bash
 python synthesize_results.py --parent_dir experiments/cnn_distill_alpha_temp
 
 
