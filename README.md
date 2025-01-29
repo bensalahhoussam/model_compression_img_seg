@@ -40,7 +40,7 @@ Link: https://www.kaggle.com/datasets/sovitrath/indian-driving-dataset-segmentat
 
 ## Training Results
 
-### Performance Metrics
+### Performance Metrics ( Teacher model ) 
 
 | Class   | Dice  | IoU  | Precision | Recall |
 |---------|-------|------|-----------|--------|
@@ -61,7 +61,7 @@ Link: https://www.kaggle.com/datasets/sovitrath/indian-driving-dataset-segmentat
 | class_25 | 0.973  | 0.948 | 0.954 | 0.994  |
 | **Mean** | **0.551** | **0.462** | **0.651** | **0.547** |
 
-### Segmentation Visualizations
+### Segmentation Visualizations ( Teacher model ) 
 
 | Input Image          | Ground Truth         | Predicted Mask       |
 |----------------------|----------------------|----------------------|
