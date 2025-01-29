@@ -19,6 +19,16 @@ network to focus on relevant regions in the input image, enhancing segmentation 
 
 ![image](https://github.com/user-attachments/assets/0b764940-3a63-4515-a9fa-e15b3963a79d)
 
+In the second part, we will train a smaller model and leverage knowledge transfer from the larger model to compress it. This approach enables efficient deployment on cutting-edge devices while maintaining high performance.
+
+
+![téléchargement](https://github.com/user-attachments/assets/3bc0ba10-4954-4807-bb16-ed1940cc47ed)
+
+the knowledge from big model will be transformed due to loss function 
+
+<img width="866" alt="téléchargement" src="https://github.com/user-attachments/assets/9ca2e168-505c-4123-9a13-3f1104306086" />
+
+
 ## Dataset
 
 Indian Driving Dataset (IDD) is for autonomous driving research in Indian traffic,it contains 27 classes, many are underrepresented.
