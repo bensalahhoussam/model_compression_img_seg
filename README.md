@@ -88,21 +88,13 @@ python perform_measures.py --input_image "dataset/idd/val/train/imge_1.jpg" --tr
 
 ## Model Optimization
 
-### Original model  
-
-* Model size : 78,546 Mb
-* Image size : 128x128
-* MFLOPs = 16728,633 
-* Total Parameters : 20,581 M
-* Inference time : 0,25 s  
-
-### Optimized model  
-
-* Model size : 2,44511 Mb
-* Image size : 128x128
-* MFLOPs = 818,687
-* Total Parameters : 0,64 M
-* Inference time : 0,18 s  
+| Metric             | Original Model | Optimized Model |
+|--------------------|----------------|-----------------|
+| **Model size**      | 78,546 Mb      | 2.44511 Mb      |
+| **Image size**      | 128x128        | 128x128         |
+| **MFLOPs**          | 16728,633      | 818,687         |
+| **Total Parameters**| 20,581 M       | 0.64 M          |
+| **Inference time**  | 0.25 s         | 0.18 s          |
 
 ### Key Improvement 
 
