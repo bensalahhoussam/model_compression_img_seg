@@ -103,5 +103,8 @@ python perform_measures.py --input_image "dataset/idd/val/train/imge_1.jpg" --tr
 - Parameters: Reduced by 88%.
 - Inference Time: Reduced by 62%, enabling faster real-time performance.
 
-
+## Train (Student)
+```bash
+python knowledge_destillation_img_seg.py --root_path  "dataset/idd/" --img_size 128 --lr 1e-3  --teacher_model "checkpoint_teacher.pt"  --student_model "checkpoint_student.pt"
+```
 
