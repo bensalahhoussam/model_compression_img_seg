@@ -94,7 +94,7 @@ python perform_measures.py --input_image "dataset/idd/val/train/imge_1.jpg" --tr
 | **Image size**      | 128x128        | 128x128         |
 | **MFLOPs**          | 16728,633      | 818,687         |
 | **Total Parameters**| 20,581 M       | 0.64 M          |
-| **Inference time**  | 0.25 s         | 0.18 s          |
+| **Inference time**  | 0.25 s         | 0.1 s          |
 
 ### Key Improvement 
 
