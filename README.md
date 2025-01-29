@@ -68,3 +68,7 @@ Link: https://www.kaggle.com/datasets/sovitrath/indian-driving-dataset-segmentat
 | ![img_1](https://github.com/user-attachments/assets/4b9540b1-f2ea-4f32-842f-57c9c703caa4)| ![mask_1](https://github.com/user-attachments/assets/618f420d-7da0-44ce-aca2-83dc1845307e)| ![out_3](https://github.com/user-attachments/assets/c5f15d0e-9e6b-49a8-935a-3aa4a44fe225)|
 | ![img_2](https://github.com/user-attachments/assets/e60c262a-d2e1-4487-bd0d-dc3afd830a2d)| ![mask_](https://github.com/user-attachments/assets/c0281f77-6e5a-4730-bfe1-c7674f2f4e6d)| ![out_new_2](https://github.com/user-attachments/assets/0bd1648d-9da2-496f-b96b-06df90a4fd8e)|
 
+## Train 
+
+
+
