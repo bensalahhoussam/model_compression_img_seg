@@ -112,6 +112,6 @@ python knowledge_destillation_img_seg.py --root_path  "dataset/idd/" --img_size 
 
 | Input Image          | Ground Truth         | Predicted Mask       |
 |----------------------|----------------------|----------------------|
-|![img_2](https://github.com/user-attachments/assets/23f5f3b8-8c98-4d0d-9b4c-9aa4359f161a)|![img_2](https://github.com/user-attachments/assets/f0b76753-2bdb-4828-9b8c-88a34ab681f5)
-|![out_3](https://github.com/user-attachments/assets/c2426668-54e5-467b-afe4-678456b21ce9)|
+|![img_2](https://github.com/user-attachments/assets/23f5f3b8-8c98-4d0d-9b4c-9aa4359f161a)|![img_2](https://github.com/user-attachments/assets/380847a7-f97f-4529-b5f1-d6d683ead677)
+||
 
