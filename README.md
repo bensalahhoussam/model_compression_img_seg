@@ -107,4 +107,11 @@ python perform_measures.py --input_image "dataset/idd/val/train/imge_1.jpg" --tr
 ```bash
 python knowledge_destillation_img_seg.py --root_path  "dataset/idd/" --img_size 128 --lr 1e-3  --teacher_model "checkpoint_teacher.pt"  --student_model "checkpoint_student.pt"
 ```
+## Training Results
+### Segmentation Visualizations ( Student model ) 
+
+| Input Image          | Ground Truth         | Predicted Mask       |
+|----------------------|----------------------|----------------------|
+|![img_2](https://github.com/user-attachments/assets/23f5f3b8-8c98-4d0d-9b4c-9aa4359f161a)|![img_2](https://github.com/user-attachments/assets/d2955dec-7dc7-4164-9227-e2381ebb96e8)
+ | ![out_3](https://github.com/user-attachments/assets/c2426668-54e5-467b-afe4-678456b21ce9)|
 
